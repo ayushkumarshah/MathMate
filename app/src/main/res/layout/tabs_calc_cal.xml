@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <Button
+            android:text="Derivative"
+            android:layout_width="match_parent"
+            android:id="@+id/btn_dr"
+            android:onClick="onClick"
+            android:layout_height="65dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="150dp"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <Button
+            android:text="Integration"
+            android:layout_width="match_parent"
+            android:id="@+id/btn_int"
+            android:onClick="onClick"
+            android:layout_height="65dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="150dp"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
