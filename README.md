@@ -1,8 +1,8 @@
 # MathMate
 
-##3rd semester Project
+#### 3rd semester Project
 
-######Abstract
+###### Abstract
 
 Our project entitled ‘MathMate’ is an interactive program that aims to provide solution of mathematical equations, problems and various unit conversions. This program was developed especially by undergraduate students.  This program is written using Android SDK .
 
